@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 import {
-  Platform,
-  StyleSheet,
-  Text,
   View,
-  TextInput,
-  Switch,
-  Button,
-  ScrollView,
-  TouchableOpacity
 } from 'react-native';
 import { observer } from 'mobx-react'
 import NavigationBar from '../../components/NavigationBar';
