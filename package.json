@@ -1,7 +1,8 @@
 {
   "name": "mobx-state-tree-boiler-plate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
+  "author": "Sufyan",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
@@ -28,5 +29,19 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mohammadsufyan/RN-MST-Boiler-Plate.git"
-  }
+  },
+  "keywords": [
+    "mobx",
+    "mobservable",
+    "observable",
+    "react-component",
+    "react",
+    "reactjs",
+    "reactive",
+    "model",
+    "frp",
+    "functional-reactive-programming",
+    "state management",
+    "data flow"
+  ]
 }
