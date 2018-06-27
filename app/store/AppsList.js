@@ -1,4 +1,4 @@
-import { types, flow } from "mobx-state-tree"
+import { types, flow, onSnapshot, onAction } from "mobx-state-tree"
 import { getAPI } from '../api/api';
 import URLs from '../api/urls';
 
@@ -43,6 +43,14 @@ const AppsList = types.model({
   }
 }).create({
   appsList: []
+})
+
+onAction(AppsList, call => {
+  console.log("AppsList Action: ", call)
+})
+
+onSnapshot(AppsList, newSnapshot => {
+  console.log("AppsList: ", newSnapshot)
 })
 
 export default AppsList
